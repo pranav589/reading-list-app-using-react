@@ -5,8 +5,7 @@ export const BookContext=createContext()
 
 const BookContextProvider=(props)=>{
   const [books,setBooks]=useState([
-    {title:'Book 1', author:'author 1', id:1},
-    {title:'Book 2', author:'Author 2', id:2}
+    
   ])
 
   const addBooks=(title,author)=>{
