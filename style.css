@@ -2,21 +2,21 @@ body{
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background:#553055
+  background:#726c72
 }
 
 .App{
-  background:#4c2a4c;
+  background:#555;
   margin:20px auto;
   width:90%;
   max-width: 700px;
-  color:#eee;
+  color:#ddd;
 }
 
 .navbar{
   padding:10px 20px;
   text-align: center;
-  background: #6d3d6d
+  background: #333
 }
 
 .navbar h1{
@@ -34,7 +34,7 @@ body{
 }
 
 .book-list li{
-  background: #6d3d6d;
+  background: #333;
   border-radius: 4px;
   padding:10px;
   cursor: pointer;
@@ -72,15 +72,17 @@ input[type="text"]{
   padding:10px;
   box-sizing: border-box;
   margin:6px 0;
-  background: #3c1f3c;
-  color: #fff;
-  border:0
+  background: #333;
+  color: #eee;
+  border:0;
+  outline: none
 }
 
 input[type="submit"]{
   margin:10px auto;
-  background: #eee;
+  background: #333;
   border:0;
   padding:6px 20px;
-  display: block
+  display: block;
+  color:#eee
 }
